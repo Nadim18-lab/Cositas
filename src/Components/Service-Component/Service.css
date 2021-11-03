@@ -1,0 +1,17 @@
+.cardPadre{
+    display:flex ;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 18rem;
+    text-align: center;
+    margin: 7px;
+}
+
+.Titulo{
+    text-align: center;
+}

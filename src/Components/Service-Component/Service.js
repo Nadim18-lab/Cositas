@@ -30,7 +30,7 @@ class Service extends Component {
               bulk of the card's content.
             </p>
             <a href="#" class="btn btn-primary">
-              Go somewhere
+              Go somewheree
             </a>
             </div>
           </div>

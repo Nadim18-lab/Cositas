@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { PropTypes } from "prop-types";
-import "./Contact.css";
+import "./Contact.scss";
 
 class Contact extends Component {
   render() {
@@ -14,6 +14,39 @@ class Contact extends Component {
               <form>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">
+                    Nombre
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  ></input>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">
+                    Apellido
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  ></input>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">
+                    Numero
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  ></input>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">
                     Email address
                   </label>
                   <input
@@ -22,37 +55,22 @@ class Contact extends Component {
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                   ></input>
-                  <div id="emailHelp" class="form-text">
-                    We'll never share your email with anyone else.
-                  </div>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">
-                    Password
+                  <label for="exampleInputEmail1" class="form-label">
+                    Consulta
                   </label>
                   <input
-                    type="password"
+                    type="text"
                     class="form-control"
-                    id="exampleInputPassword1"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
                   ></input>
-                </div>
-                <div class="mb-3 form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="exampleCheck1"
-                  ></input>
-                  <label class="form-check-label" for="exampleCheck1">
-                    Check me out
-                  </label>
                 </div>
                 <button type="submit" class="btn btn-primary">
                   Submit
                 </button>
               </form>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
             </div>
           </div>
         </div>

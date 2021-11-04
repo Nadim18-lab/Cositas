@@ -1,15 +1,1 @@
-.card {
-  width: 50% !important;
-  text-align: center;
-}
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  height: 100vh;
-}
-h1 {
-  text-align: center;
-}
+

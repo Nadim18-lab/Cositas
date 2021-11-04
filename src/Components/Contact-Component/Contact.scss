@@ -9,7 +9,32 @@
   text-align: center;
   flex-direction: column;
   height: 100vh;
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  p{
+      margin-bottom: 30px;
+  }
 }
-h1 {
-  text-align: center;
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.question-container {
+  display: inline-block;
+  width: 70%;
+}
+.submit-btn {
+  margin-top: 10px;
+}
+.question-input {
+  height: 9vw;
+}
+@media (min-width: 768px) {
+  .input-style {
+    width: 22vw;
+  }
 }

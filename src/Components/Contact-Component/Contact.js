@@ -6,8 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div class="img-container"></div>
-        <div class="header">
+        <div class="header img-container">
           <h1>Contactanos</h1>
           <p>
             Amet consequat occaecat aliqua veniam adipisicing quis dolor in amet

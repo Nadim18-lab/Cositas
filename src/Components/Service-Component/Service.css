@@ -18,11 +18,13 @@
   text-align: center;
   margin-top: 90px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 1px 1px rgb(153, 13, 118);
 }
 
 .fondo {
-  background-image: url("https://www.mediasource.mx/hubfs/blog-files/fondos-web.jpg");
+  background-image: url("/src/Assets/background.jpg");
   background-repeat: no-repeat;
+  background-size:contain;
 }
 
 .header {
@@ -46,5 +48,8 @@
   border-color: rgb(153, 13, 118);
 }
 
-@media screen and(max-width:600px) {
-}
+@media(max-width:600px) {
+    .cardPadre{
+      flex-direction: column !important;
+    }
+  };

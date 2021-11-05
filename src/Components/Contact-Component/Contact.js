@@ -6,6 +6,9 @@ class Contact extends Component {
   render() {
     return (
       <div>
+        <div class="img-container">
+          <img src="./src/Assets/background.jpg" class="img"></img>
+        </div>
         <div class="header">
           <h1>Contactanos</h1>
           <p>

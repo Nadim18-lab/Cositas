@@ -6,7 +6,8 @@ class Service extends Component {
   render() {
     return (
       <div>
-        <div><img class="fondo" src="https://www.mediasource.mx/hubfs/blog-files/fondos-web.jpg"></img></div>
+        <div class="fondo header">
+          <div class="Contenedor">
           <h1 class="Titulo">Sobre Nosotros</h1>
           <div class="cardPadre">
             <div class="card">
@@ -59,6 +60,8 @@ class Service extends Component {
                   Go somewheree
                 </a>
               </div>
+            </div>
+            </div>
             </div>
             </div>
         </div>

@@ -11,11 +11,7 @@ class Service extends Component {
             <h1 class="Titulo">Sobre Nosotros</h1>
             <div class="cardPadre">
               <div class="card">
-                <img
-                  src="https://i.ytimg.com/vi/9FlBtZiMCAw/mqdefault.jpg"
-                  class="card-img-top"
-                  alt="..."
-                ></img>
+                <div class="icon-container"><i class="fas fa-images icon"></i></div>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">
@@ -28,11 +24,7 @@ class Service extends Component {
                 </div>
               </div>
               <div class="card">
-                <img
-                  src="https://i.ytimg.com/vi/9FlBtZiMCAw/mqdefault.jpg"
-                  class="card-img-top"
-                  alt="..."
-                ></img>
+                <div class="icon-container"><i class="fab fa-apple icon2"></i></div>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">
@@ -40,16 +32,12 @@ class Service extends Component {
                     up the bulk of the card's content.
                   </p>
                   <a href="#" class="btn btn-primary">
-                    Go somewheree
+                    Go somewhere
                   </a>
                 </div>
               </div>
               <div class="card">
-                <img
-                  src="https://i.ytimg.com/vi/9FlBtZiMCAw/mqdefault.jpg"
-                  class="card-img-top"
-                  alt="..."
-                ></img>
+                <div class="icon-container"><i class="fas fa-dna icon3"></i></div>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">
@@ -57,7 +45,7 @@ class Service extends Component {
                     up the bulk of the card's content.
                   </p>
                   <a href="#" class="btn btn-primary">
-                    Go somewheree
+                    Go somewhere
                   </a>
                 </div>
               </div>

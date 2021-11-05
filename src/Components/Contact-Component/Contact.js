@@ -18,11 +18,11 @@ class Contact extends Component {
           </p>
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Deja tus datos</h5>
+              <h5 class="card-title label">Deja tus datos</h5>
               <form>
                 <div class="float-left">
                   <div class="mb-3">
-                    <label for="exampleInputEmail1  " class="form-label">
+                    <label for="exampleInputEmail1  " class="label form-label">
                       Nombre
                     </label>
                     <input
@@ -33,7 +33,7 @@ class Contact extends Component {
                     ></input>
                   </div>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1  " class="form-label">
+                    <label for="exampleInputEmail1  " class="label form-label">
                       Apellido
                     </label>
                     <input
@@ -46,7 +46,7 @@ class Contact extends Component {
                 </div>
                 <div class="float-right">
                   <div class="mb-3">
-                    <label for="exampleInputEmail1  " class="form-label">
+                    <label for="exampleInputEmail1  " class="label form-label">
                       Numero
                     </label>
                     <input
@@ -57,7 +57,7 @@ class Contact extends Component {
                     ></input>
                   </div>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1  " class="form-label">
+                    <label for="exampleInputEmail1  " class="label form-label">
                       Email
                     </label>
                     <input
@@ -70,7 +70,7 @@ class Contact extends Component {
                 </div>
                 <div class="question-container">
                   <div>
-                    <label for="exampleInputEmail1  " class="form-label">
+                    <label for="exampleInputEmail1  " class="label form-label">
                       Consulta
                     </label>
                     <input

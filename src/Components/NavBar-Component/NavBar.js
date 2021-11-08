@@ -30,12 +30,6 @@ class NavBar extends Component {
             </div>
           </ul>
         </div>
-        <div className="header">
-          <div className="header_title">
-            <h1>TITLE</h1>
-          </div>
-          <div></div>
-        </div>
       </div>
     );
   }

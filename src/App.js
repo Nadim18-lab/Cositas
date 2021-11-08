@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import Service from './Components/Service-Component/Service'
-=======
->>>>>>> 78422980dee3ed9e4acff5ccf7a1532ed4248d08
 import './App.css';
 import Home from "./Components/Home-Component/Home";
 import NavBar from "./Components/NavBar-Component/NavBar";
@@ -14,9 +10,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
-<<<<<<< HEAD
-      <Service/>
-=======
       <BrowserRouter>
         <NavBar />
         <Routes>
@@ -25,7 +18,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
->>>>>>> 78422980dee3ed9e4acff5ccf7a1532ed4248d08
     </div>
   );
 }

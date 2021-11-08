@@ -15,6 +15,10 @@
   );
 }
 .header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../Assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,9 +63,7 @@
     width: 22vw;
   }
 }
-.img-container {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../../Assets/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.text{
+  font-size: 8rem !important;
 }

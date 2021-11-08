@@ -1,3 +1,4 @@
+import './App.css';
 import Home from "./Components/Home-Component/Home";
 import NavBar from "./Components/NavBar-Component/NavBar";
 import Contact from "./Components/Contact-Component/Contact";

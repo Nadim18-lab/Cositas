@@ -1,4 +1,4 @@
-.card {
+.myCard {
   width: 50% !important;
   text-align: center;
   border-color: white;
@@ -36,7 +36,7 @@
     color: white;
   }
 }
-.float-left {
+.floatLeft {
   float: left;
 }
 .float-right {
@@ -46,24 +46,20 @@
   color: white;
   text-decoration: underline;
 }
-.question-container {
+.questionContainer {
   display: inline-block;
   width: 70%;
 }
-.submit-btn {
+.submitBtn {
   margin-top: 10px;
   background-color: #cd1ddc;
   border-color: white;
 }
-.question-input {
+.questionInput {
   height: 9vw;
 }
 @media (min-width: 768px) {
-  .input-style {
+  .inputStyle {
     width: 22vw;
   }
-}
-
-.text{
-  font-size: 8rem !important;
 }

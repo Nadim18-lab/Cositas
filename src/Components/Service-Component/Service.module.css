@@ -1,12 +1,12 @@
 .Titulo {
-  color:#fff;
+  color: #fff;
   text-align: center;
   margin-top: 90px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-shadow: 2px 2px rgb(153, 13, 118);
 }
 
-.fa-image{
+.fa-image {
   font-size: 8rem;
 }
 
@@ -21,6 +21,7 @@
 
 .Mycontainer {
   background-color: rgb(152, 26, 177);
+  border: 1px solid black;
   border-radius: 100%;
   width: 69px;
   height: 59px;
@@ -29,30 +30,18 @@
   left: 19px;
 }
 
-.Mybody{
+.Mybody {
   overflow: hidden !important;
+  padding: 20px;
 }
 
-.icon{
+.icon {
   position: absolute;
-  top: 15px;
-  left: 19px;
-  font-size: 30px;
-}
-
-.icon2{
-  position: absolute;
-  top: 13px;
+  top: 14px;
   left: 22px;
   font-size: 30px;
 }
 
-.icon3{
-  position: absolute;
-  top: 13px;
-  left: 22px;
-  font-size: 30px;
-}
 
 .Mycard {
   position: relative;
@@ -60,11 +49,10 @@
   width: 18rem;
   text-align: center;
   margin: 7px;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-
-.Mycard:hover{
+.Mycard:hover {
   height: 500px;
   width: 300px;
   border-radius: 5px;
@@ -72,9 +60,11 @@
 }
 
 .fondo {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/src/Assets/background.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/Assets/background.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
+  
 }
 
 .header {
@@ -102,4 +92,6 @@
   .cardPadre {
     flex-direction: column !important;
   }
+
+
 } ;

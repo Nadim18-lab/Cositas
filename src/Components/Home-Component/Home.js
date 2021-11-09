@@ -1,34 +1,21 @@
 import React, { Component } from "react";
 import { PropTypes } from "prop-types";
+import HomeCSS from
 
 class Home extends Component {
 
     render() {
         return (
-            <div>
-                <div>
-                    <ul className = "nav">
-                        <div className = "nav_div">
-                            <li><a href = "/#">Home</a></li>
-                        </div>
-                    </ul>
-                    <ul className = "nav">
-                        <div className = "nav_div">
-                            <li><a href = "/#">About us</a></li>
-                        </div>
-                    </ul>
-                    <ul className = "nav">
-                        <div className = "nav_div">
-                            <li><a href = "/#">Contact us</a></li>
-                        </div>
-                    </ul>
-                </div>
-                <div className = "header">
-                    <div className = "header_title">
-                        <h1>TITLE</h1>
+            //Nav bar
+            <div class="viewport">
+            {/* Logo, tilte and welcome */}
+                <div class="header">
+                    <div class="header_title">
+                        <h1>TITULO</h1>
+                        <h2>SUBTITULO</h2>
                     </div>
                     <div>
-
+                        
                     </div>   
                 </div>
             </div>

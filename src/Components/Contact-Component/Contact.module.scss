@@ -1,0 +1,65 @@
+.myCard {
+  width: 50% !important;
+  text-align: center;
+  border-color: white;
+  background: rgb(255, 12, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 217, 1) 7%,
+    rgba(151, 5, 169, 1) 23%,
+    rgba(124, 3, 156, 1) 34%,
+    rgba(52, 7, 115, 1) 55%,
+    rgba(99, 1, 145, 1) 73%,
+    rgba(106, 2, 148, 1) 79%,
+    rgba(159, 5, 172, 1) 100%
+  );
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../Assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 1px 1px rgba(231, 96, 96, 1);
+  }
+  p {
+    margin-bottom: 30px;
+    color: white;
+  }
+}
+.floatLeft {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.label {
+  color: white;
+  text-decoration: underline;
+}
+.questionContainer {
+  display: inline-block;
+  width: 70%;
+}
+.submitBtn {
+  margin-top: 10px;
+  background-color: #cd1ddc;
+  border-color: white;
+}
+.questionInput {
+  height: 9vw;
+}
+@media (min-width: 768px) {
+  .inputStyle {
+    width: 22vw;
+  }
+}

@@ -6,6 +6,7 @@ class Home extends Component {
 
     render() {
         return (
+
             //Nav bar
             <div class="viewport">
             {/* Logo, tilte and welcome */}
@@ -18,6 +19,8 @@ class Home extends Component {
                         
                     </div>   
                 </div>
+
+            
             </div>
         );
     }

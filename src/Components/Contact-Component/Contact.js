@@ -52,7 +52,7 @@ class Contact extends Component {
                     ></input>
                   </div>
                 </div>
-                <div className={ContactSCSS.floatRight}>
+                <div className={ContactSCSS["float-right"]}>
                   <div className="mb-3">
                     <label
                       for="exampleInputEmail1  "

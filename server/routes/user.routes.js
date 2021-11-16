@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get("/users", (req, res) => {
   res.json({
-    status: "API works",
+    status: "API works"
   });
 });
 
